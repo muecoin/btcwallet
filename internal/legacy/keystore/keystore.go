@@ -1,4 +1,4 @@
-// Copyright (c) 2013-2016 The btcsuite developers
+// Copyright (c) 2013-2016 The muecoin developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -24,13 +24,13 @@ import (
 
 	"golang.org/x/crypto/ripemd160"
 
-	"github.com/btcsuite/btcd/btcec"
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/txscript"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcutil"
-	"github.com/btcsuite/btcwallet/internal/legacy/rename"
+	"github.com/muecoin/btcd/btcec"
+	"github.com/muecoin/btcd/chaincfg"
+	"github.com/muecoin/btcd/chaincfg/chainhash"
+	"github.com/muecoin/btcd/txscript"
+	"github.com/muecoin/btcd/wire"
+	"github.com/muecoin/btcutil"
+	"github.com/muecoin/btcwallet/internal/legacy/rename"
 )
 
 const (

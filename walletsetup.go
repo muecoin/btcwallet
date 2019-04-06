@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2015 The btcsuite developers
+// Copyright (c) 2014-2015 The muecoin developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -11,16 +11,16 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/btcsuite/btcd/btcec"
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcutil"
-	"github.com/btcsuite/btcwallet/internal/legacy/keystore"
-	"github.com/btcsuite/btcwallet/internal/prompt"
-	"github.com/btcsuite/btcwallet/waddrmgr"
-	"github.com/btcsuite/btcwallet/wallet"
-	"github.com/btcsuite/btcwallet/walletdb"
-	_ "github.com/btcsuite/btcwallet/walletdb/bdb"
+	"github.com/muecoin/btcd/btcec"
+	"github.com/muecoin/btcd/chaincfg"
+	"github.com/muecoin/btcd/wire"
+	"github.com/muecoin/btcutil"
+	"github.com/muecoin/btcwallet/internal/legacy/keystore"
+	"github.com/muecoin/btcwallet/internal/prompt"
+	"github.com/muecoin/btcwallet/waddrmgr"
+	"github.com/muecoin/btcwallet/wallet"
+	"github.com/muecoin/btcwallet/walletdb"
+	_ "github.com/muecoin/btcwallet/walletdb/bdb"
 )
 
 // networkDir returns the directory name of a network directory to hold wallet

@@ -1,7 +1,7 @@
 btcwallet
 =========
 
-[![Build Status](https://travis-ci.org/btcsuite/btcwallet.png?branch=master)](https://travis-ci.org/btcsuite/btcwallet)
+[![Build Status](https://travis-ci.org/muecoin/btcwallet.png?branch=master)](https://travis-ci.org/muecoin/btcwallet)
 [![Build status](https://ci.appveyor.com/api/projects/status/88nxvckdj8upqr36/branch/master?svg=true)](https://ci.appveyor.com/project/jrick/btcwallet/branch/master)
 
 btcwallet is a daemon handling bitcoin wallet functionality for a
@@ -30,7 +30,7 @@ encryption will extend to transactions as well.
 btcwallet is not an SPV client and requires connecting to a local or
 remote btcd instance for asynchronous blockchain queries and
 notifications over websockets.  Full btcd installation instructions
-can be found [here](https://github.com/btcsuite/btcd).  An alternative
+can be found [here](https://github.com/muecoin/btcd).  An alternative
 SPV mode that is compatible with btcd and Bitcoin Core is planned for
 a future release.
 
@@ -60,9 +60,9 @@ Wallet clients can use one of two RPC servers:
 
 Install the latest MSIs available here:
 
-https://github.com/btcsuite/btcd/releases
+https://github.com/muecoin/btcd/releases
 
-https://github.com/btcsuite/btcwallet/releases
+https://github.com/muecoin/btcwallet/releases
 
 ### Windows/Linux/BSD/POSIX - Build from source
 
@@ -96,8 +96,8 @@ For a first time installation, the project and dependency sources can be
 obtained manually with `git` and `glide` (create directories as needed):
 
 ```
-git clone https://github.com/btcsuite/btcwallet $GOPATH/src/github.com/btcsuite/btcwallet
-cd $GOPATH/src/github.com/btcsuite/btcwallet
+git clone https://github.com/muecoin/btcwallet $GOPATH/src/github.com/muecoin/btcwallet
+cd $GOPATH/src/github.com/muecoin/btcwallet
 glide install
 ```
 
@@ -105,7 +105,7 @@ To update an existing source tree, pull the latest changes and install the
 matching dependencies:
 
 ```
-cd $GOPATH/src/github.com/btcsuite/btcwallet
+cd $GOPATH/src/github.com/muecoin/btcwallet
 git pull
 glide install
 ```
@@ -174,29 +174,29 @@ PS> $editor $env:LOCALAPPDATA\Btcwallet\btcwallet.conf
 
 PowerShell (Installed from source):
 ```
-PS> cp $env:GOPATH\src\github.com\btcsuite\btcd\sample-btcd.conf $env:LOCALAPPDATA\Btcd\btcd.conf
-PS> cp $env:GOPATH\src\github.com\btcsuite\btcwallet\sample-btcwallet.conf $env:LOCALAPPDATA\Btcwallet\btcwallet.conf
+PS> cp $env:GOPATH\src\github.com\muecoin\btcd\sample-btcd.conf $env:LOCALAPPDATA\Btcd\btcd.conf
+PS> cp $env:GOPATH\src\github.com\muecoin\btcwallet\sample-btcwallet.conf $env:LOCALAPPDATA\Btcwallet\btcwallet.conf
 PS> $editor $env:LOCALAPPDATA\Btcd\btcd.conf
 PS> $editor $env:LOCALAPPDATA\Btcwallet\btcwallet.conf
 ```
 
 Linux/BSD/POSIX (Installed from source):
 ```bash
-$ cp $GOPATH/src/github.com/btcsuite/btcd/sample-btcd.conf ~/.btcd/btcd.conf
-$ cp $GOPATH/src/github.com/btcsuite/btcwallet/sample-btcwallet.conf ~/.btcwallet/btcwallet.conf
+$ cp $GOPATH/src/github.com/muecoin/btcd/sample-btcd.conf ~/.btcd/btcd.conf
+$ cp $GOPATH/src/github.com/muecoin/btcwallet/sample-btcwallet.conf ~/.btcwallet/btcwallet.conf
 $ $EDITOR ~/.btcd/btcd.conf
 $ $EDITOR ~/.btcwallet/btcwallet.conf
 ```
 
 ## Issue Tracker
 
-The [integrated github issue tracker](https://github.com/btcsuite/btcwallet/issues)
+The [integrated github issue tracker](https://github.com/muecoin/btcwallet/issues)
 is used for this project.
 
 ## GPG Verification Key
 
 All official release tags are signed by Conformal so users can ensure the code
-has not been tampered with and is coming from the btcsuite developers.  To
+has not been tampered with and is coming from the muecoin developers.  To
 verify the signature perform the following:
 
 - Download the public key from the Conformal website at

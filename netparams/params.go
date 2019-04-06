@@ -1,10 +1,10 @@
-// Copyright (c) 2013-2015 The btcsuite developers
+// Copyright (c) 2013-2015 The muecoin developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
 package netparams
 
-import "github.com/btcsuite/btcd/chaincfg"
+import "github.com/muecoin/btcd/chaincfg"
 
 // Params is used to group parameters for various networks such as the main
 // network and test networks.

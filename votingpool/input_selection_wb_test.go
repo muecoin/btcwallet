@@ -1,4 +1,4 @@
-// Copyright (c) 2015-2017 The btcsuite developers
+// Copyright (c) 2015-2017 The muecoin developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -10,11 +10,11 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcutil"
-	"github.com/btcsuite/btcwallet/walletdb"
-	"github.com/btcsuite/btcwallet/wtxmgr"
+	"github.com/muecoin/btcd/chaincfg/chainhash"
+	"github.com/muecoin/btcd/wire"
+	"github.com/muecoin/btcutil"
+	"github.com/muecoin/btcwallet/walletdb"
+	"github.com/muecoin/btcwallet/wtxmgr"
 )
 
 var (

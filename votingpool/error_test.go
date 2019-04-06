@@ -1,4 +1,4 @@
-// Copyright (c) 2014 The btcsuite developers
+// Copyright (c) 2014 The muecoin developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -7,7 +7,7 @@ package votingpool_test
 import (
 	"testing"
 
-	vp "github.com/btcsuite/btcwallet/votingpool"
+	vp "github.com/muecoin/btcwallet/votingpool"
 )
 
 // TestErrorCodeStringer tests that all error codes has a text

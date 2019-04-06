@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/btcsuite/btcd/btcec"
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcutil"
-	"github.com/btcsuite/btcutil/hdkeychain"
-	"github.com/btcsuite/btcwallet/internal/zero"
-	"github.com/btcsuite/btcwallet/walletdb"
+	"github.com/muecoin/btcd/btcec"
+	"github.com/muecoin/btcd/chaincfg"
+	"github.com/muecoin/btcutil"
+	"github.com/muecoin/btcutil/hdkeychain"
+	"github.com/muecoin/btcwallet/internal/zero"
+	"github.com/muecoin/btcwallet/walletdb"
 )
 
 // DerivationPath represents a derivation path from a particular key manager's

@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2016 The btcsuite developers
+// Copyright (c) 2014-2016 The muecoin developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -11,12 +11,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcutil"
-	"github.com/btcsuite/btcutil/hdkeychain"
-	"github.com/btcsuite/btcwallet/internal/zero"
-	"github.com/btcsuite/btcwallet/snacl"
-	"github.com/btcsuite/btcwallet/walletdb"
+	"github.com/muecoin/btcd/chaincfg"
+	"github.com/muecoin/btcutil"
+	"github.com/muecoin/btcutil/hdkeychain"
+	"github.com/muecoin/btcwallet/internal/zero"
+	"github.com/muecoin/btcwallet/snacl"
+	"github.com/muecoin/btcwallet/walletdb"
 )
 
 const (

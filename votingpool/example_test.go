@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2014-2017 The btcsuite developers
+ * Copyright (c) 2014-2017 The muecoin developers
  *
  * Permission to use, copy, modify, and distribute this software for any
  * purpose with or without fee is hereby granted, provided that the above
@@ -24,14 +24,14 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/txscript"
-	"github.com/btcsuite/btcutil"
-	"github.com/btcsuite/btcwallet/votingpool"
-	"github.com/btcsuite/btcwallet/waddrmgr"
-	"github.com/btcsuite/btcwallet/walletdb"
-	_ "github.com/btcsuite/btcwallet/walletdb/bdb"
-	"github.com/btcsuite/btcwallet/wtxmgr"
+	"github.com/muecoin/btcd/chaincfg"
+	"github.com/muecoin/btcd/txscript"
+	"github.com/muecoin/btcutil"
+	"github.com/muecoin/btcwallet/votingpool"
+	"github.com/muecoin/btcwallet/waddrmgr"
+	"github.com/muecoin/btcwallet/walletdb"
+	_ "github.com/muecoin/btcwallet/walletdb/bdb"
+	"github.com/muecoin/btcwallet/wtxmgr"
 )
 
 var (

@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2015-2016 The btcsuite developers
+ * Copyright (c) 2015-2016 The muecoin developers
  *
  * Permission to use, copy, modify, and distribute this software for any
  * purpose with or without fee is hereby granted, provided that the above
@@ -21,11 +21,11 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/txscript"
-	"github.com/btcsuite/btcutil"
-	"github.com/btcsuite/btcwallet/walletdb"
-	"github.com/btcsuite/btcwallet/wtxmgr"
+	"github.com/muecoin/btcd/chaincfg"
+	"github.com/muecoin/btcd/txscript"
+	"github.com/muecoin/btcutil"
+	"github.com/muecoin/btcwallet/walletdb"
+	"github.com/muecoin/btcwallet/wtxmgr"
 )
 
 const eligibleInputMinConfirmations = 100

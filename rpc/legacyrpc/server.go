@@ -1,4 +1,4 @@
-// Copyright (c) 2013-2017 The btcsuite developers
+// Copyright (c) 2013-2017 The muecoin developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -19,10 +19,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/btcsuite/btcd/btcjson"
-	"github.com/btcsuite/btcwallet/chain"
-	"github.com/btcsuite/btcwallet/wallet"
-	"github.com/btcsuite/websocket"
+	"github.com/muecoin/btcd/btcjson"
+	"github.com/muecoin/btcwallet/chain"
+	"github.com/muecoin/btcwallet/wallet"
+	"github.com/muecoin/websocket"
 )
 
 type websocketClient struct {

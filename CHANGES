@@ -96,7 +96,7 @@ Changes in 0.6.0 (Wed May 27 2015)
       updates at a time under a single database transaction.
 
   - Notable developer-related changes:
-    - Relicense all code to the btcsuite developers (#258)
+    - Relicense all code to the muecoin developers (#258)
     - Replace txstore package with wtxmgr, the walletdb-based transaction
       store (#217, #234)
     - Add Cursor API to walletdb for forwards and backwards iteration over

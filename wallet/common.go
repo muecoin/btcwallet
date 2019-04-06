@@ -1,5 +1,5 @@
 // Copyright (c) 2016 The Decred developers
-// Copyright (c) 2017 The btcsuite developers
+// Copyright (c) 2017 The muecoin developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -8,9 +8,9 @@ package wallet
 import (
 	"time"
 
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcutil"
+	"github.com/muecoin/btcd/chaincfg/chainhash"
+	"github.com/muecoin/btcd/wire"
+	"github.com/muecoin/btcutil"
 )
 
 // Note: The following common types should never reference the Wallet type.

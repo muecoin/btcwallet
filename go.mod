@@ -1,11 +1,11 @@
-module github.com/btcsuite/btcwallet
+module github.com/muecoin/btcwallet
 
 require (
-	github.com/btcsuite/btcd v0.0.0-20190213025234-306aecffea32
-	github.com/btcsuite/btclog v0.0.0-20170628155309-84c8d2346e9f
-	github.com/btcsuite/btcutil v0.0.0-20190207003914-4c204d697803
-	github.com/btcsuite/golangcrypto v0.0.0-20150304025918-53f62d9b43e8
-	github.com/btcsuite/websocket v0.0.0-20150119174127-31079b680792
+	github.com/muecoin/btcd v0.0.0-20190213025234-306aecffea32
+	github.com/muecoin/btclog v0.0.0-20170628155309-84c8d2346e9f
+	github.com/muecoin/btcutil v0.0.0-20190207003914-4c204d697803
+	github.com/muecoin/golangcrypto v0.0.0-20150304025918-53f62d9b43e8
+	github.com/muecoin/websocket v0.0.0-20150119174127-31079b680792
 	github.com/coreos/bbolt v1.3.2
 	github.com/davecgh/go-spew v1.1.1
 	github.com/golang/protobuf v1.2.0

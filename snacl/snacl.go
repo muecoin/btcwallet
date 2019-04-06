@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2017 The btcsuite developers
+// Copyright (c) 2014-2017 The muecoin developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -13,9 +13,9 @@ import (
 	"io"
 	"runtime/debug"
 
-	"github.com/btcsuite/btcwallet/internal/zero"
-	"github.com/btcsuite/golangcrypto/nacl/secretbox"
-	"github.com/btcsuite/golangcrypto/scrypt"
+	"github.com/muecoin/btcwallet/internal/zero"
+	"github.com/muecoin/golangcrypto/nacl/secretbox"
+	"github.com/muecoin/golangcrypto/scrypt"
 )
 
 var (

@@ -1,14 +1,14 @@
-// Copyright (c) 2016 The btcsuite developers
+// Copyright (c) 2016 The muecoin developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
 package txsizes
 
 import (
-	"github.com/btcsuite/btcd/blockchain"
-	"github.com/btcsuite/btcd/wire"
+	"github.com/muecoin/btcd/blockchain"
+	"github.com/muecoin/btcd/wire"
 
-	h "github.com/btcsuite/btcwallet/internal/helpers"
+	h "github.com/muecoin/btcwallet/internal/helpers"
 )
 
 // Worst case script and input/output size estimates.

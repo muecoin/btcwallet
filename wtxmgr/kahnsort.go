@@ -1,12 +1,12 @@
-// Copyright (c) 2016 The btcsuite developers
+// Copyright (c) 2016 The muecoin developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
 package wtxmgr
 
 import (
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/wire"
+	"github.com/muecoin/btcd/chaincfg/chainhash"
+	"github.com/muecoin/btcd/wire"
 )
 
 type graphNode struct {
